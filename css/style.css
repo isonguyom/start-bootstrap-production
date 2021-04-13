@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../images/bg-masthead.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(75, 62, 62);
+    /* width: 100%; */
+    padding: 20px;
+    height: 620px;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(187, 182, 182);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: white;
+}
+
+.site-name {
+    width: 30%;
+    float: left;
+    padding-left: 100px;
+}
+
+nav {
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding-right: 100px;
+}
+
+nav a {
+    font-size: smaller;
+    padding: 0px 10px;
+}
+
+nav a:last-child {
+    padding-right: 0;
+}
+
+.landing-text {
+    clear: both;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+.landing-text h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.landing-text hr {
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: tomato;
+}
+
+.landing-text p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.landing-text button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: tomato;
+    color: white;
+}
+
+.section1 {
+    background-color: tomato;
+    padding: 100px 0px;
+    color: white;
+}
+
+.section1-div1 {
+    clear: both;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section1-div1 .head {
+    font-size: 2em;
+}
+
+.section1-div1 hr {
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.section1-div1 .text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section1-div1 button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* background-color: tomato; */
+}
+
+.section2 {
+    padding: 100px;
+    text-align: center;
+}
+
+.section2 .head {
+    font-size: 2em;
+}
+
+.section2 .sub-head {
+    font-weight: bold;
+}
+
+.section2 .text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section2 hr {
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: tomato;
+}
+
+.section2-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+
+.section2-flexbox .flex {
+    width: 22%;
+    text-align: center;
+}
+
+.section2-flexbox .flex-icon {
+    font-size: 5em;
+    color: tomato;
+}
+
+.section3 div {
+    justify-content: stretch;
+}
+
+.section3 img {
+    width: 33%;
+}
+
+.section4 {
+    text-align: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 100px;
+}
+
+.section4 h3 {
+    color: white;
+}
+
+.section4 button{
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* background-color: tomato; */
+}
+
+.section5 {
+    text-align: center;
+    padding: 100px;
+}
+
+.section5 .head {
+    font-size: 2em;
+}
+
+.section5 hr {
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: tomato;
+}
+
+.section5 .text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section5 .flex2 p {
+    color: tomato;
+}
+
+.section5-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    width: 40%;
+    margin-top: 30px;
+    /* margin-left: 350px; */
+}
+
+.section5-flexbox .flex-icon {
+    font-size: 3em;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
